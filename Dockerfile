@@ -1,4 +1,4 @@
-FROM python:3.9
+FROM python:3.9-slim-buster
 
 ENV RADARR_URL='http://127.0.0.1:7878'
 ENV RADARR_API_KEY=
