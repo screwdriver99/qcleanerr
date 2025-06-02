@@ -21,7 +21,7 @@ When a download entry stays in failure state for more than one hour (this can be
 it's removed from the download client and blacklisted, so the service will not re-add it anymore.
 
 The failure-check criteria is customizable in the function `isFailed(record)`. See the [/api/v3/queue](https://radarr.video/docs/api/#/Queue/get_api_v3_queue).
-Note: the 'records' object is passed to this function.
+Note: the 'record' object is passed to this function.
 
 ## Contributing
 
